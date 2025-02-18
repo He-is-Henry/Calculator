@@ -35,7 +35,7 @@ buttonValues.forEach((buttonValue) => {
   const button = document.createElement("button");
   button.textContent = buttonValue;
   if (buttonValue === "0") {
-    button.style.width = "200px";
+    button.style.width = "150px";
     button.style.gridColumn = "span 2";
   }
   if (rightSymbols.includes(buttonValue)) {
